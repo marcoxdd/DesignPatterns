@@ -3,6 +3,7 @@ package desconto;
 import orcamento.Orcamento;
 
 import java.math.BigDecimal;
+import java.util.Hashtable;
 
 public class DescontoMaisDeCincoItens extends Desconto{
 
@@ -10,12 +11,14 @@ public class DescontoMaisDeCincoItens extends Desconto{
         super(proximo);
     }
 
-    @Override
-    public BigDecimal calcular(Orcamento orcamento) {
-        if (orcamento.getQuntidade() > 5){
-            return orcamento.getValor().multiply(new BigDecimal(0.1));
-        }
 
-        return proximo.calcular(orcamento);
+    @Override
+    protected BigDecimal efetuarCalculo(Orcamento orcamento) {
+        return orcamento.getValor().multiply(new BigDecimal(0.1));
+    }
+
+    @Override
+    public boolean verificar(Orcamento orcamento) {
+        return orcamento.getQuntidade() > 5;
     }
 }
