@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07d71bf-6227-4e5e-979f-8af0277c2300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projetoDesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesteImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imposto/CalculadoraImpostos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imposto/ICMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imposto/ISS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imposto/Imposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/orcamento/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/situação/Aprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/situação/EmAnalise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/situação/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/situação/Reprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/orcamento/situação/SituacaoOrcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/orcamento/Orcamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,9 +43,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/MarcoComarella/Desktop/Nova pasta/Meus projetos/DesignPatterns"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="orcamento" />
+      <recent name="orcamento.situação" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="orcamento.situação" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TesteImposto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TesteImposto" />
@@ -71,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657586869914</updated>
       <workItem from="1657586871914" duration="2034000" />
+      <workItem from="1662125491258" duration="2580000" />
     </task>
     <servers />
   </component>
